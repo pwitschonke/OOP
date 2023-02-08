@@ -20,9 +20,12 @@ class Coin:
             self.sideup = 'Heads'
         else:
             self.sideup = 'Tails'
+    # This is a mutator method -> it can change the value of the attribute
 
     # The get_sideup method returns the value
     # referenced by sideup.
 
     def get_sideup(self):
             return self.sideup
+
+    # A get method returns the value of an attribute (accessor method)
